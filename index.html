@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FURNITURE EKSPLORASI</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            width: 100%;
+            overflow-x: hidden;
+            font-family: Arial, sans-serif;
+        }
+
+        nav {
+            background-color: white;
+            border-bottom: 1px solid #ccc;
+            padding: 15px 30px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav .wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        nav .logo a {
+            font-weight: bold;
+            font-size: 18px;
+            color: #2c4d6e;
+            text-decoration: none;
+        }
+
+        nav .menu ul {
+            list-style: none;
+            display: flex;
+            gap: 25px;
+        }
+
+        nav .menu a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        nav .menu a:hover {
+            color: #2c4d6e;
+        }
+
+        .centered-image {
+            text-align: center;
+            margin: 30px 0;
+        }
+
+        .centered-image img {
+            max-width: 800px;
+            width: 100%;
+            height: auto;
+            display: inline-block;
+        }
+
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+            margin-top: 30px;
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        #copyright {
+            text-align: center;
+            padding: 20px;
+            background-color: #222;
+            color: white;
+            font-size: 14px;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin: 40px 0;
+        }
+
+        .profile {
+            text-align: center;
+        }
+
+        .profile img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+
+        .profile p {
+            margin-top: 10px;
+        }
+
+        section {
+            padding: 40px;
+        }
+
+        .kolom {
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="wrapper">
+            <div class="logo"><a href=''>Bangku Taman Interaktif dari Limbah Sepeda</a></div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#KONSEP">KONSEP</a></li>
+                    <li><a href="#MOODBOARD">MOOD BOARD</a></li>
+                    <li><a href="#MAHASISWA">MAHASISWA</a></li>
+                    <li><a href="#HASILVIDEO">HASIL VIDEO</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="wr">
+        <!-- HOME -->
+        <section id="home">
+            <video autoplay muted loop style="width: 100%; height: auto;">
+                <source src="mejacok.mp4" type="video/mp4">
+                Browser Anda tidak mendukung video ini.
+            </video>
+        </section>
+
+        <!-- KONSEP -->
+        <section id="KONSEP">
+            <div class="kolom">
+                <h2>CUT & PASTE</h2>
+                <p>Yang berarti tindakan memotong atau memilah (cut) material tidak terpakai menjadi fragmen-fragmen yang dapat diolah kembali, kemudian menyatukan (paste) material-material tersebut menjadi suatu bentuk baru yang fungsional serta membuka ruang untuk penggabungan beragam material menjadi satu kesatuan furniture yang utuh.</p>
+            </div>
+
+            <div class="centered-image">
+                <!-- Image if any -->
+            </div>
+
+            <div class="kolom">
+                <h2>RUMUSAN MASALAH</h2>
+                <p>Bagaimana Merancang Bangku Taman Interaktif Berbasis Material Upcycle Yang Mampu Mendorong Perilaku Duduk Aktif (Active Seating) Di Lingkungan Kampus Fsrd Isi Bali?</p>
+                <p>Bagaimana Pemanfaatan Material Upcycle, Khususnya Rangka Sepeda Bekas, Dapat Diintegrasikan Secara Fungsional Dan Estetis Dalam Desain Furnitur Luar Ruang?</p>
+            </div>
+
+            <div class="kolom">
+                <h2>LATAR BELAKANG</h2>
+                <p>Ungkapan "Sitting is the new smoking" menyoroti bahaya duduk terlalu lama. Penelitian menunjukkan risiko kesehatan meningkat jika duduk lebih dari enam jam per hari. Sebagai solusi, diterapkan konsep active seating—tempat duduk yang mendorong gerakan ringan. Di FSRD ISI Bali, dirancang bangku taman interaktif dari sepeda bekas dengan sistem kayuh untuk mendukung aktivitas fisik, interaksi sosial, dan edukasi lingkungan. Tujuannya: menciptakan pengalaman duduk yang sehat, aktif, dan berkelanjutan.</p>
+            </div>
+        </section>
+
+        <!-- MOODBOARD -->
+        <section id="MOODBOARD">
+            <img src="moodboard.png" alt="moodboard" style="width: 100%; max-width: 800px; display: block; margin: auto;">
+        </section>
+
+        <!-- MAHASISWA -->
+        <section id="MAHASISWA">
+            <div class="kolom">
+                <h2>MAHASISWA</h2>
+            </div>
+            <div class="container">
+                <div class="profile">
+                    <a href="https://www.instagram.com/shanliang_atelier/" target="_blank">
+                        <img src="wiliam.jpg" alt="William">
+                        <p>WILLIAM</p>
+                    </a>
+                </div>
+                <div class="profile">
+                    <a href="https://www.instagram.com/hshiz.virgo" target="_blank">
+                        <img src="itan.jpg" alt="Tristan">
+                        <p>MUHAMMAD TRISTAN PRATAMA</p>
+                    </a>
+                </div>
+                <div class="profile">
+                    <a href="https://www.instagram.com/m.ravinurfirm" target="_blank">
+                        <img src="kipli.jpg" alt="Ravi">
+                        <p>MUHAMMAD RAVI NURFIRMANSYAH</p>
+                    </a>
+                </div>
+                <div class="profile">
+                    <a href="https://www.instagram.com/ppyvlncia_" target="_blank">
+                        <img src="valen.jpg" alt="Poppy">
+                        <p>POPPY VALENCIA</p>
+                    </a>
+                </div>
+                <div class="profile">
+                    <a href="https://www.instagram.com/gd_okan31" target="_blank">
+                        <img src="okan.jpg" alt="Okan">
+                        <p>I GEDE OKAN PUSPAYOGA GUYASKA</p>
+                    </a>
+                </div>
+                <div class="profile">
+                    <a href="https://www.instagram.com/dvadhrm" target="_blank">
+                        <img src="deva.jpg" alt="Deva">
+                        <p>DEVA DHARMA WIWEKA</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- VIDEO -->
+       <html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Autoplay Vimeo</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+    iframe {
+      width: 100vw;
+      height: 100vh;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+
+  <iframe 
+    src="https://player.vimeo.com/video/1108074303"
+    allow="autoplay; fullscreen; picture-in-picture"
+    allowfullscreen>
+  </iframe>
+
+</body>
+</html>
+
+        <!-- COPYRIGHT -->
+        <div id="copyright">
+            &copy; 2025. <b>Furniture Eksplorasi.</b> All Rights Reserved.
+        </div>
+    </div>
+</body>
+</html>
